@@ -1,1 +1,110 @@
 
+header {
+    background-color: #040234;
+    height: 150px;
+    display: flex;
+    padding-bottom: 25px;
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.espaco {
+    padding-bottom: 15px;
+}
+
+nav {
+    
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+nav li {
+    display: inline;
+    padding-left: 10px;
+}
+
+nav ul {
+    
+   
+}
+.textnav {
+    color: white;
+}
+
+.textsearch {
+    color: white;
+    text-align:left;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.newsletter {
+    background-color: #040234;
+    display: flex;
+    padding-bottom: 25px;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.bottoncolor {
+    background-color: #7F187F;
+    color: white;
+}
+
+.slider {
+    width: 940px;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.sliderimg {
+}
+
+body {
+    background-color: snow ;
+}
+
+.bodyalign {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.search {
+    padding-top: 25px;
+
+}
+
+footer{
+    background-color: #040234;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.footertext {
+    color: white;
+    padding-top: 25px;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.logomail {
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 10px;
+}
