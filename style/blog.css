@@ -8,7 +8,22 @@ header {
     width: 1080px;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+  }
 
+.box{
+  display: flex;
+  margin-bottom: 10px;
+}
+.box2{
+    display: flex;
+    color: white;
+    background-color: #085488;
+    margin:10px;
+    width: 470px;
+    border-radius: 10px;
+  }
 .espaco {
     padding-bottom: 15px;
 }
@@ -70,6 +85,7 @@ nav ul {
 
 body {
     background-color: snow ;
+    justify-content: space-between;
 }
 
 .bodyalign {
@@ -107,4 +123,7 @@ footer{
     padding-top: 40px;
     padding-left: 100px;
     padding-right: 10px;
+}
+head{
+    orientation: landscape;
 }
