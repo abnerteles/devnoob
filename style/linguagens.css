@@ -44,6 +44,70 @@
     color: #6c5ce7; /* Lilás escuro para hover */
 }
 
+/* Estilo para o contêiner da barra de busca */
+.search {
+    position: relative;           /* Permite posicionar elementos internamente */
+    width: 300px;                 /* Largura total */
+    height: 40px;                 /* Altura da barra de busca */
+    background-color: #333;       /* Cor de fundo (ajuste para o seu tema) */
+    border: 1px solid #ccc;       /* Bordas da barra de busca */
+    border-radius: 5px;           /* Bordas arredondadas */
+    display: flex;                /* Flexbox para organizar os elementos */
+    align-items: center;          /* Alinha verticalmente */
+    padding: 0 10px;  
+    margin-top: -135px;            /* Espaçamento interno horizontal */
+}
+
+/* Estilo para o campo de texto */
+.search input {
+    flex: 1;                      /* Faz o campo de texto ocupar o espaço disponível */
+    border: none;                 /* Remove borda padrão */
+    background: transparent;      /* Fundo transparente */
+    font-size: 14px;              /* Tamanho da fonte */
+    color: #555;                  /* Cor do texto */
+    outline: none;                /* Remove borda azul ao focar */
+    padding: 5px;                 /* Espaçamento interno */
+}
+
+/* Estilo para o ícone de lupa */
+.search i {
+    font-size: 16px;              /* Tamanho do ícone */
+    color: #aaa;                  /* Cor do ícone */
+    margin-left: 10px;            /* Espaçamento entre o texto e a lupa */
+    cursor: pointer;              /* Mostra o cursor de clique na lupa */
+}
+
+
+
+/* Remove estilo padrão da lista */
+.navbar ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;       /* Remove espaçamento interno */
+    margin: 0;        /* Remove margens externas */
+    display: flex;    /* Exibe os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+}
+
+/* Estilo dos itens da lista */
+.navbar li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+/* Estilo inicial dos links */
+.navbar a {
+    text-decoration: none; /* Remove sublinhado padrão */
+    color: white;          /* Cor do texto */
+    padding: 5px 10px;     /* Espaçamento interno para melhorar o clique */
+    transition: border-bottom 0.3s ease; /* Animação suave */
+    border-bottom: 2px solid transparent; /* Linha inferior invisível */
+}
+
+/* Efeito ao passar o mouse */
+.navbar a:hover {
+    border-bottom: 2px solid white; /* Linha inferior visível ao hover */
+}
+
+
 .card {
     max-width: 800px;
     margin: 0 auto;
@@ -106,3 +170,4 @@ footer {    background-color: hwb(239 2% 76% / 0.993); /* Azul escuro */
 body {
     background-color: #f0f8ff;
 }
+
