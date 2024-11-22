@@ -14,7 +14,7 @@
  
 /* Header */
 .header {
-    background-color: hwb(239 2% 76% / 0.993); /* Azul escuro */
+    background-color: hwb(239 2% 76% / 0.993); 
     color: #f8f0f0;
     padding: 5px;
     display: flex;
@@ -34,77 +34,78 @@
 }
  
 .header nav ul li a {
-    color: #a29bfe; /* Lilás */
+    color: #a29bfe; 
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
  
 .header nav ul li a:hover {
-    color: #6c5ce7; /* Lilás escuro para hover */
+    color: #6c5ce7; 
 }
 
-/* Estilo para o contêiner da barra de busca */
+
 .search {
-    position: relative;           /* Permite posicionar elementos internamente */
-    width: 300px;                 /* Largura total */
-    height: 40px;                 /* Altura da barra de busca */
-    background-color: #333;       /* Cor de fundo (ajuste para o seu tema) */
-    border: 1px solid #ccc;       /* Bordas da barra de busca */
-    border-radius: 5px;           /* Bordas arredondadas */
-    display: flex;                /* Flexbox para organizar os elementos */
-    align-items: center;          /* Alinha verticalmente */
-    padding: 0 10px;  
-    margin-top: -135px;            /* Espaçamento interno horizontal */
+    position: relative;           
+    width: 200px;                 
+    height: 35px;                 
+    background-color: #f8f0f0;       
+    border: 1px solid #ccc;       
+    border-radius: 5px;           
+    display: flex;              
+    align-items: center;          
+    padding-left: 5px;
+    margin-top: -135px;           
 }
 
-/* Estilo para o campo de texto */
+
 .search input {
-    flex: 1;                      /* Faz o campo de texto ocupar o espaço disponível */
-    border: none;                 /* Remove borda padrão */
-    background: transparent;      /* Fundo transparente */
-    font-size: 14px;              /* Tamanho da fonte */
-    color: #555;                  /* Cor do texto */
-    outline: none;                /* Remove borda azul ao focar */
-    padding: 5px;                 /* Espaçamento interno */
+    flex: 1;                      
+    height: 100%;                 
+    border: none;                 
+    background-color: #f8f0f0;     
+    font-size: 16px;              
+    color: #ccc;                  
+    outline: none;                
 }
 
-/* Estilo para o ícone de lupa */
+
 .search i {
-    font-size: 16px;              /* Tamanho do ícone */
-    color: #aaa;                  /* Cor do ícone */
-    margin-left: 10px;            /* Espaçamento entre o texto e a lupa */
-    cursor: pointer;              /* Mostra o cursor de clique na lupa */
+    position: absolute;           
+    right: 10px;                  
+    font-size: 18px;              
+    color: #ccc;                  
+    pointer-events: none;         
 }
 
 
 
-/* Remove estilo padrão da lista */
+
 .navbar ul {
-    list-style: none; /* Remove os marcadores da lista */
-    padding: 0;       /* Remove espaçamento interno */
-    margin: 0;        /* Remove margens externas */
-    display: flex;    /* Exibe os itens em linha */
-    justify-content: center; /* Centraliza os itens */
+    list-style: none; 
+    padding: 0;       
+    margin: 0;        
+    display: flex;    
+    justify-content: center; 
 }
 
-/* Estilo dos itens da lista */
+
 .navbar li {
-    margin: 0 15px; /* Espaçamento entre os itens */
+    margin: 0 15px; 
 }
 
-/* Estilo inicial dos links */
+
 .navbar a {
-    text-decoration: none; /* Remove sublinhado padrão */
-    color: white;          /* Cor do texto */
-    padding: 5px 10px;     /* Espaçamento interno para melhorar o clique */
-    transition: border-bottom 0.3s ease; /* Animação suave */
-    border-bottom: 2px solid transparent; /* Linha inferior invisível */
+    text-decoration: none; 
+    color: white;          
+    padding: 5px 10px;     
+    transition: border-bottom 0.3s ease; 
+    border-bottom: 2px solid transparent; 
 }
 
-/* Efeito ao passar o mouse */
+
 .navbar a:hover {
-    border-bottom: 2px solid white; /* Linha inferior visível ao hover */
+    border-bottom: 2px solid white;
 }
 
 
@@ -159,7 +160,7 @@ section.card-container {
     color: #333;
 }
 
-footer {    background-color: hwb(239 2% 76% / 0.993); /* Azul escuro */
+footer {    background-color: hwb(239 2% 76% / 0.993); 
     color: #f8f0f0;
     padding: 5px;
     display: flex;
