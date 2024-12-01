@@ -7,7 +7,7 @@
  
 .body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f7f7f7;
     color: #333;
     line-height: 1.6;
 }
@@ -168,7 +168,5 @@ footer {    background-color: hwb(239 2% 76% / 0.993);
     justify-content: space-between;
 }
 
-body {
-    background-color: #f0f8ff;
-}
+
 
