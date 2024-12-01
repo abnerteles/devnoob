@@ -98,72 +98,9 @@ footer{
     margin-right: 15px;
 }
 
-.espaco {
-    padding-bottom: 15px;
+/* Layout Geral */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
 }
-
-.slider {
-    width: 940px;
-    position: relative;
-    display: flex;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-}
-
-.box{
-  display: flex;
-  margin-bottom: 10px;
-}
-.box2{
-    display: flex;
-    color: white;
-    background-color: #085488;
-    margin:10px;
-    width: 470px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s;
-  }
-
-  .box2:hover {
-    transform: translateY(-5px);
-}
- 
-
-.newsletter {
-    background-color: #040234;
-    display: flex;
-    padding-bottom: 25px;
-    width: 940px;
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-.bottoncolor {
-    background-color: #7F187F;
-    color: white;
-}
-
-.bodyalign {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-
-}
-
-.search {
-    padding-top: 25px;
-
-}
-
-.logomail {
-    padding-top: 40px;
-    padding-left: 100px;
-    padding-right: 10px;
-}
-
-
-
-
