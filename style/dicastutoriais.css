@@ -98,72 +98,85 @@ footer{
     margin-right: 15px;
 }
 
-.espaco {
-    padding-bottom: 15px;
+ 
+/* Layout Geral */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
 }
-
-.slider {
-    width: 940px;
-    position: relative;
-    display: flex;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
+ 
+/* Cards de Post */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
 }
-
-.box{
-  display: flex;
-  margin-bottom: 10px;
-}
-.box2{
-    display: flex;
-    color: white;
-    background-color: #085488;
-    margin:10px;
-    width: 470px;
-    border-radius: 10px;
+ 
+.card {
+    background-color: #fff;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s;
-  }
-
-  .box2:hover {
+}
+ 
+.card:hover {
     transform: translateY(-5px);
 }
  
-
-.newsletter {
-    background-color: #040234;
-    display: flex;
-    padding-bottom: 25px;
-    width: 940px;
-    margin: 0 auto;
-    text-align: center;
-
+.card img {
+    width: 100%;
+    height: auto;
 }
-
-.bottoncolor {
-    background-color: #7F187F;
-    color: white;
+ 
+.card-content {
+    padding: px;
 }
-
-.bodyalign {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-
+ 
+.card h2 {
+    color: #2d3e50;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
-
-.search {
-    padding-top: 25px;
-
+ 
+.card p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 15px;
+    line-height: 1.4;
 }
-
-.logomail {
-    padding-top: 40px;
-    padding-left: 100px;
-    padding-right: 10px;
+ 
+.card a {
+    display: inline-block;
+    color: #6c5ce7;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
 }
-
-
-
-
+ 
+.card a:hover {
+    color: #a29bfe;
+}
+ 
+/* Imagens e Seções */
+main img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+/* Responsividade */
+@media (max-width: 768px) {
+    .header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+ 
+    .container {
+        padding: 10px;
+    }
+}
