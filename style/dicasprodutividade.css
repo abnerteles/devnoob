@@ -48,7 +48,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #a29bfe; /* Lilás */
+  color:white; /* Lilás */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
@@ -131,10 +131,11 @@ main img {
   margin: 20px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-escrever aqui 
+
 /* Footer */
-footer {
+footer{
   background-color: #040234;
+  color: white;
   height: 120px;
   display: flex;
   text-align: center;
@@ -144,8 +145,23 @@ footer {
 }
 
 .footertext {
-  color: white;
-  padding-top: 25px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left:15px ;
+}
+
+.logo_footer {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.imgfooter{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left:auto;
+  margin-right: 15px;
 }
 
 /* Responsividade */
@@ -161,4 +177,7 @@ footer {
 }
 .logo {
   padding-left: 30px;
+}
+
+.equipe {
 }

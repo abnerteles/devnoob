@@ -3,14 +3,15 @@
     padding: 0;
     -moz-box-sizing: content-box;
 }
- 
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
+    justify-content: space-between;
     color: #333;
     line-height: 1.6;
 }
- 
+
 /* Header */
 header {
     background-color: #040234;
@@ -20,22 +21,6 @@ header {
     position: relative;
     width: 1080px;
     margin: 0 auto;
-}
-
-nav {
-    
-    text-align: center;
-    padding-top: 60px;
-    
-}
-
-.textnav {
-    color: white;
-}
-
-.textsearch {
-    color: white;
-    text-align:left;
 }
 
 header .logo img {
@@ -50,7 +35,7 @@ header nav ul {
 }
  
 header nav ul li a {
-    color: #a29bfe; /* Lilás */
+    color: white; /* Branco */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
@@ -60,9 +45,57 @@ header nav ul li a:hover {
     color: #6c5ce7; /* Lilás escuro para hover */
 }
 
+nav {
+    
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+.textnav {
+    color: white;
+}
+
 .search {
     padding-top: 25px;
 
+}
+
+.textsearch {
+    color: white;
+    text-align:left;
+}
+
+/* Footer */
+footer{
+    background-color: #040234;
+    color: white;
+    height: 120px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.footertext {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:15px ;
+}
+
+.logo_footer {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.imgfooter{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:auto;
+    margin-right: 15px;
 }
  
 /* Layout Geral */
@@ -135,22 +168,6 @@ main img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
  
-/* Footer */
-footer{
-    background-color: #040234;
-    height: 120px;
-    display: flex;
-    text-align: center;
-    position: relative;
-    width: 1080px;
-    margin: 0 auto;
-}
-
-.footertext {
-    color: white;
-    padding-top: 25px;
-}
- 
 /* Responsividade */
 @media (max-width: 768px) {
     .header nav ul {
@@ -161,7 +178,4 @@ footer{
     .container {
         padding: 10px;
     }
-}
-.logo {
-    padding-left: 30px;
 }
