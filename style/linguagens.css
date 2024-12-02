@@ -108,7 +108,7 @@ footer{
 /* Cards de Post */
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     margin-top: 30px;
 }
@@ -136,7 +136,7 @@ footer{
  
 .card h2 {
     color: #2d3e50;
-    font-size: 1.5em;
+    font-size: 20px;
     margin-bottom: 10px;
 }
  
@@ -185,7 +185,5 @@ footer {    background-color: hwb(239 2% 76% / 0.993);
     justify-content: space-between;
 }
 
-body {
-    background-color: #f0f8ff;
-}
+
 

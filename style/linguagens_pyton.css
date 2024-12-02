@@ -179,3 +179,8 @@ main img {
         padding: 10px;
     }
 }
+
+.image {
+    width: 40%;
+    height: auto;
+}
