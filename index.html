@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevNoob - Blog</title>
     <link rel="stylesheet" href="style/blog.css" />
+    <script src="style/blog.js" defer></script>
   </head>
   <body>
     <header>
@@ -28,19 +29,46 @@
     </header>
     <div class="espaco"></div>
     <div class="bodyalign">
-    <section>
+    <section class="slider">
+        <div class="slider-content">
+            <!--Radio butons-->
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+            <input type="radio" name="btn-radio" id="radio4">
+            <!--Fim Radio butons-->
+
+            <!--Slide Images-->
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="image/bannerpython.png" alt="Slide1" width="940">
+            </div>
+            <div class="slide-box">
+                <img class="img-desktop" src="image/bannerjavascript.png" alt="Slide2" width="940">
+            </div>
+            <div class="slide-box">
+                <img class="img-desktop" src="image/bannerhtml.png" alt="Slide3" width="940">
+            </div>
+            <div class="slide-box">
+                <img class="img-desktop" src="image/bannerdicas.png" alt="Slide4" width="940">
+            </div>
+            <!--Final Slide Images-->
+
+            <!--Navigation Auto-->
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--Fim Navigation Auto-->                       
+        </div>
         <div>
-            <ul class="slider">
-                <li>
-                      <img src="image/slide1.JPG" alt="slide1" width="940">
-                </li>
-                <li>
-                      <img src="image/slide3.JPG" alt="slide1" width="940" height="200">
-                </li>
-                <li>
-                      <img src="image/slide1.jfif" alt="slide1" width="940">
-                </li>
-            </ul>
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn" class="auto-btn3"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div> 
         </div>
     </section>
     <div class="espaco"></div>
