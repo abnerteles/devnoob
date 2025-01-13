@@ -17,10 +17,11 @@ header {
     background-color: #040234;
     height: 150px;
     display: flex;
-    padding-bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
     position: relative;
-    width: 1080px;
-    margin: 0 auto;
+}
 }
 
 header .logo img {
@@ -45,12 +46,17 @@ header nav ul li a:hover {
     color: #6c5ce7; /* Lilás escuro para hover */
 }
 
-nav {
     
+{    
     text-align: center;
     padding-top: 60px;
     
 }
+
+
+    text-align: center;
+    padding-top: 60px;
+    
 
 .textnav {
     color: white;
@@ -74,7 +80,7 @@ footer{
     display: flex;
     text-align: center;
     position: relative;
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
 }
 
