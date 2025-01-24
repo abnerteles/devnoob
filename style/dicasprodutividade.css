@@ -50,14 +50,25 @@ header nav ul {
 }
 
 header nav ul li a {
-  color:white; /* Lilás */
+  color: white; 
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-  color: #6c5ce7; /* Lilás escuro para hover */
+  color: #6c5ce7; 
+}
+
+nav {
+  
+  text-align: center;
+  padding-top: 60px;
+  
+}
+
+.textnav {
+  color: white;
 }
 
 .search {

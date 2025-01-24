@@ -7,20 +7,19 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    justify-content: space-between;
     color: #333;
     line-height: 1.6;
 }
 
-/* Header */
+
 header {
     background-color: #040234;
     height: 150px;
     display: flex;
-    padding-bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
     position: relative;
-    width: 100%;
-    margin: 0 auto;
 }
 
 header .logo img {
@@ -66,7 +65,7 @@ nav {
     text-align:left;
 }
 
-/* Footer */
+
 footer{
     background-color: #040234;
     color: white;
@@ -74,7 +73,7 @@ footer{
     display: flex;
     text-align: center;
     position: relative;
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -98,7 +97,7 @@ footer{
     margin-right: 15px;
 }
  
-/* Layout Geral */
+
 .container {
     max-width: 800px;
     margin: auto;

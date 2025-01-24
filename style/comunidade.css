@@ -7,20 +7,19 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    justify-content: space-between;
     color: #333;
     line-height: 1.6;
 }
 
-/* Header */
+
 header {
     background-color: #040234;
     height: 150px;
     display: flex;
-    padding-bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
     position: relative;
-    width: 1080px;
-    margin: 0 auto;
 }
 
 header .logo img {
@@ -35,14 +34,14 @@ header nav ul {
 }
  
 header nav ul li a {
-    color: white; /* Branco */
+    color: white; 
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
  
 header nav ul li a:hover {
-    color: #6c5ce7; /* Lilás escuro para hover */
+    color: #6c5ce7; 
 }
 
 nav {
@@ -66,7 +65,7 @@ nav {
     text-align:left;
 }
 
-/* Footer */
+
 footer{
     background-color: #040234;
     color: white;
@@ -74,7 +73,7 @@ footer{
     display: flex;
     text-align: center;
     position: relative;
-    width: 1080px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -159,7 +158,7 @@ footer{
 }
 
 
-/* Ajusta o layout da parte com a imagem e o texto */
+
 .comunidade-content {
     display: flex;
     align-items: center;
@@ -169,40 +168,47 @@ footer{
   .input-container {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espaço entre a imagem e o campo */
-    width: 100%; /* Garante que o conteúdo ocupe toda a largura */
+    gap: 10px; 
+    width: 100%; 
   }
   
   .logomail img {
-    margin-right: 10px; /* Ajusta o espaço entre a imagem e o texto */
+    margin-right: 10px; 
   }
   
-/* Ajusta o campo de entrada e o botão para ficarem do mesmo tamanho */
+
 .input-whatsapp {
-    width: calc(100% - 100px); /* Subtrai o tamanho do botão */
+    width: calc(100% - 100px); 
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    margin-bottom: 10px; /* Espaço abaixo do campo */
+    margin-bottom: 10px; 
     box-sizing: border-box; 
   }
   
-  /* Ajusta o botão */
+  
   .bottoncolor {
-    background-color: #800080; /* Cor roxa */
+    background-color: #800080; 
     color: white;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%; /* Faz o botão ocupar toda a largura do campo */
-    box-sizing: border-box; /* Para garantir que o padding não afete o tamanho total */
+    width: 100%; 
+    box-sizing: border-box; 
   }
   
-  /* Efeito de hover para o botão */
+
   .bottoncolor:hover {
-    background-color: #6a006a; /* Cor mais escura quando passar o mouse */
+    background-color: #6a006a; 
   }
   
+  footer {    background-color: hwb(239 2% 76% / 0.993); 
+    color: #f8f0f0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
