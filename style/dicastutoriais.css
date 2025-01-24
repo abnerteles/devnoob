@@ -168,7 +168,7 @@ nav {
     width: 100%;
 }
  
-/* Footer */
+
 footer{
     background-color: #040234;
     color: white;
@@ -185,7 +185,7 @@ footer{
     font-weight: bold;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left:10px ;
+    margin-left:15px ;
 }
 
 .logo_footer {
